@@ -20,7 +20,7 @@ categorie = st.sidebar.radio("Categories", ("Accueil", "Les corrélations",
                                             "Les distributions",
                                             "Conclusion"))
 
-country = st.sidebar.radio("Pays", ("Tous","US", "Europe", "Japon"))
+country = st.sidebar.radio("Continent", ("Tous","US", "Europe", "Japon"))
 
 expander = st.sidebar.beta_expander("Sources")
 expander.info('Quête réalisée par Antoine C.')
